@@ -1,0 +1,29 @@
+.login-container {
+    @apply w-[100vw] h-[100vh] flex items-center justify-center;
+    background: linear-gradient(45deg,white, #5ee697);
+}
+.login-form {
+    @apply bg-white p-8 rounded-lg shadow-lg text-black font-lxgw flex flex-col items-center gap-2;
+    width: 400px;
+    height: 280px;
+}
+.login-form h1 {
+    @apply text-2xl font-bold mb-4;
+}
+
+.login-line input{
+   @apply border-b-2 border-gray-300 w-48 h-8
+}
+.login-line input:focus{
+    outline: none;
+    border-color: #5ee697;
+}
+.btn-line button {
+    @apply bg-[#5ee697] text-white w-24 h-8 rounded-lg mt-2;
+}
+.btn-line button:hover {
+    @apply bg-[#0acc5d] text-white w-24 h-8 rounded-lg mt-2;
+}
+.btn-line{
+    @apply flex flex-col items-center gap-4;
+}

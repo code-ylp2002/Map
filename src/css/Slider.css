@@ -1,0 +1,17 @@
+.slider {
+  background: aliceblue;
+  font-family: lxgw, serif;
+  width: 256px;
+  height: 100%;
+  padding: 40px 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.slider .item {
+  background: white;
+  flex-grow: 1;
+  color: #282c34;
+}
+
+/*# sourceMappingURL=Slider.css.map */
